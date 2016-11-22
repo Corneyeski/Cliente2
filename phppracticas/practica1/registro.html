@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <form action="registro.php" method="post" autocomplete="on">
+
+            <b>Usuario:</b> <input type="text" id="usuario" maxlength="10" name="usuario">
+            <b>Email:</b> <input type="text" id="email" value="@" name="email">
+            <br>
+            <b>Password:</b> <input type="password" id="passwrod1" name="passwrod1">
+            <b>Confirm password:</b> <input type="password" id="passwrod2" name="passwrod2">
+            
+            
+            <?php
+            $password1 = $_POST["password1"]
+            $password2 = $_POST["password2"]
+            $logincorrecto=0;
+            
+            if($password1 == $password2){
+            redireccionar
+            }
+            else{
+            mensaje de error
+            $logincorrecto=1;
+            }
+            ?>
+            
+            <br>
+            <b>Medio de transporte?</b>
+            coche<input type="radio" name="transporte" value="coche">
+            tren<input type="radio" name="transporte" value="tren">
+            moto<input type="radio" name="transporte" value="moto">
+            <br>
+            <input type="submit" value="Registrarse">
+            <input type="reset" value="reiniciar formulario">
+            
+        </form>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+#nombre {
+    display: inline-block;
+
+}
+#fecha {
+    display: inline-block;
+    margin-left: 40px;
+}
+#uno{
+    width: 800px;
+    height: 50px;
+
+}
+#dos {
+    width: 600px;
+    height: 200px;
+}
+#blog {
+    display: inline-block;
+    padding: 10px;
+}
+#marca {
+    display: inline-block;
+    padding: 10px;
+}
+#hermanos {
+    padding: 10px;
+
+}
+#sexo{
+    display: inline-block;
+    padding: 10px;
+
+}
+#cuatro {
+    text-align: center;
+    width: 300px;
+}

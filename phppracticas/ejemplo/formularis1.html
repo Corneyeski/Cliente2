@@ -1,0 +1,21 @@
+<html>
+    <title> FORMULARIO POST</title>
+    <form action="registro.php" method="post">
+        <label for="nom">Nombre:</label> <input type="text" name="fname" id="nom" maxlength="10"/> <label for="ema">E-mail</label>
+        <input type="email" name="email" id="ema"> <br/>
+        <br/><br/><label for="pass1">Password: </label>
+        <input type="password" name="password1" id="pass1" /><label for="pass2">Confirmació password: </label>
+        <input type="password" name="password2" id="pass2"/>  <br/>
+        <br/>
+        <label for="trans">Transporte mas utilizado: </label>
+        Coche <input type="radio" name="transporte" value="coche" id="trans">  Tren  <input type="radio" name="transporte" value="tren">   Moto <input type="radio" name="transporte" value="moto">
+        <br/>
+        <br/>
+        <input type="submit" value="Registrate"/>
+
+        <input type="reset" value="Limpia el form">
+
+
+
+    </form>
+</html>

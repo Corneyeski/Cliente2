@@ -1,0 +1,59 @@
+[11-Mar-2016 20:57:09 Europe/Madrid] PHP Fatal error:  Function name must be a string in /home/hgkbzorb/public_html/beta/admin/admin.php on line 145
+[11-Mar-2016 20:57:11 Europe/Madrid] PHP Fatal error:  Function name must be a string in /home/hgkbzorb/public_html/beta/admin/admin.php on line 145
+[11-Mar-2016 20:57:16 Europe/Madrid] PHP Fatal error:  Function name must be a string in /home/hgkbzorb/public_html/beta/admin/admin.php on line 145
+[11-Mar-2016 20:57:19 Europe/Madrid] PHP Fatal error:  Function name must be a string in /home/hgkbzorb/public_html/beta/admin/admin.php on line 145
+[11-Mar-2016 21:05:04 Europe/Madrid] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 151
+[11-Mar-2016 21:05:05 Europe/Madrid] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 151
+[11-Mar-2016 21:05:23 Europe/Madrid] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 151
+[11-Mar-2016 21:05:24 Europe/Madrid] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 151
+[11-Mar-2016 21:09:02 Europe/Madrid] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, resource given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 151
+[11-Mar-2016 21:09:05 Europe/Madrid] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, resource given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 151
+[11-Mar-2016 21:09:06 Europe/Madrid] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, resource given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 151
+[14-Mar-2016 16:51:21 Europe/Madrid] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, resource given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 192
+[14-Mar-2016 16:51:21 Europe/Madrid] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 201
+[14-Mar-2016 16:53:36 Europe/Madrid] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, resource given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 192
+[14-Mar-2016 16:53:36 Europe/Madrid] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, resource given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 201
+[14-Mar-2016 16:53:45 Europe/Madrid] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, resource given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 192
+[14-Mar-2016 16:53:45 Europe/Madrid] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, resource given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 201
+[14-Mar-2016 16:55:06 Europe/Madrid] PHP Parse error:  syntax error, unexpected '<' in /home/hgkbzorb/public_html/beta/admin/admin.php on line 162
+[14-Mar-2016 16:56:40 Europe/Madrid] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, resource given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 170
+[14-Mar-2016 17:47:27 Europe/Madrid] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/hgkbzorb/public_html/beta/admin/admin.php on line 144
+[15-Mar-2016 16:51:55 Europe/Madrid] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 33
+[15-Mar-2016 16:53:12 Europe/Madrid] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 9
+[15-Mar-2016 16:53:34 Europe/Madrid] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 9
+[15-Mar-2016 17:01:12 Europe/Madrid] PHP Parse error:  syntax error, unexpected '<' in /home/hgkbzorb/public_html/beta/admin/admin.php on line 221
+[15-Mar-2016 17:01:50 Europe/Madrid] PHP Parse error:  syntax error, unexpected '<' in /home/hgkbzorb/public_html/beta/admin/admin.php on line 223
+[15-Mar-2016 17:09:53 Europe/Madrid] PHP Parse error:  syntax error, unexpected '<' in /home/hgkbzorb/public_html/beta/admin/admin.php on line 185
+[15-Mar-2016 17:24:07 Europe/Madrid] PHP Fatal error:  Function name must be a string in /home/hgkbzorb/public_html/beta/admin/admin.php on line 192
+[15-Mar-2016 17:32:46 Europe/Madrid] PHP Fatal error:  Function name must be a string in /home/hgkbzorb/public_html/beta/admin/admin.php on line 204
+[15-Mar-2016 17:33:04 Europe/Madrid] PHP Fatal error:  Function name must be a string in /home/hgkbzorb/public_html/beta/admin/admin.php on line 204
+[15-Mar-2016 17:33:47 Europe/Madrid] PHP Fatal error:  Function name must be a string in /home/hgkbzorb/public_html/beta/admin/admin.php on line 204
+[15-Mar-2016 17:45:04 Europe/Madrid] PHP Parse error:  syntax error, unexpected ')' in /home/hgkbzorb/public_html/beta/admin/admin.php on line 217
+[15-Mar-2016 17:45:21 Europe/Madrid] PHP Parse error:  syntax error, unexpected '}' in /home/hgkbzorb/public_html/beta/admin/admin.php on line 217
+[15-Mar-2016 17:45:34 Europe/Madrid] PHP Parse error:  syntax error, unexpected '}' in /home/hgkbzorb/public_html/beta/admin/admin.php on line 217
+[18-Apr-2016 17:21:18 Europe/Madrid] PHP Parse error:  syntax error, unexpected 'hgkbzorb_all4music' (T_STRING) in /home/hgkbzorb/public_html/beta/admin/admin.php on line 17
+[18-Apr-2016 17:21:46 Europe/Madrid] PHP Parse error:  syntax error, unexpected 'hgkbzorb_all4music' (T_STRING) in /home/hgkbzorb/public_html/beta/admin/admin.php on line 17
+[18-Apr-2016 17:22:19 Europe/Madrid] PHP Parse error:  syntax error, unexpected end of file in /home/hgkbzorb/public_html/beta/admin/admin.php on line 25
+[18-Apr-2016 17:23:10 Europe/Madrid] PHP Parse error:  syntax error, unexpected end of file in /home/hgkbzorb/public_html/beta/admin/admin.php on line 26
+[18-Apr-2016 17:24:07 Europe/Madrid] PHP Parse error:  syntax error, unexpected end of file in /home/hgkbzorb/public_html/beta/admin/admin.php on line 26
+[18-Apr-2016 17:26:40 Europe/Madrid] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 18
+[18-Apr-2016 17:26:40 Europe/Madrid] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 32
+[18-Apr-2016 17:27:04 Europe/Madrid] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 18
+[18-Apr-2016 17:27:04 Europe/Madrid] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 32
+[18-Apr-2016 17:28:04 Europe/Madrid] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 18
+[18-Apr-2016 17:28:04 Europe/Madrid] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 32
+[18-Apr-2016 17:29:40 Europe/Madrid] PHP Warning:  mysql_select_db(): Access denied for user ''@'localhost' (using password: NO) in /home/hgkbzorb/public_html/beta/admin/admin.php on line 18
+[18-Apr-2016 17:29:40 Europe/Madrid] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/hgkbzorb/public_html/beta/admin/admin.php on line 18
+[18-Apr-2016 17:45:10 Europe/Madrid] PHP Parse error:  syntax error, unexpected '}' in /home/hgkbzorb/public_html/beta/admin/admin.php on line 58
+[18-Apr-2016 17:45:48 Europe/Madrid] PHP Parse error:  syntax error, unexpected '}' in /home/hgkbzorb/public_html/beta/admin/admin.php on line 58
+[18-Apr-2016 17:46:33 Europe/Madrid] PHP Parse error:  syntax error, unexpected '}' in /home/hgkbzorb/public_html/beta/admin/admin.php on line 58
+[18-Apr-2016 17:47:23 Europe/Madrid] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 61
+[18-Apr-2016 17:47:23 Europe/Madrid] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 75
+[18-Apr-2016 17:49:40 Europe/Madrid] PHP Warning:  mysqli::query() expects parameter 2 to be long, object given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 61
+[18-Apr-2016 17:49:40 Europe/Madrid] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 75
+[18-Apr-2016 17:49:49 Europe/Madrid] PHP Warning:  mysqli::query() expects parameter 2 to be long, object given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 61
+[18-Apr-2016 17:49:49 Europe/Madrid] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 75
+[18-Apr-2016 17:50:59 Europe/Madrid] PHP Warning:  mysqli::query() expects parameter 2 to be long, object given in /home/hgkbzorb/public_html/beta/admin/admin.php on line 61
+[18-Apr-2016 17:50:59 Europe/Madrid] PHP Fatal error:  Call to a member function fetch_object() on null in /home/hgkbzorb/public_html/beta/admin/admin.php on line 75
+[18-Apr-2016 17:51:49 Europe/Madrid] PHP Fatal error:  Cannot use object of type stdClass as array in /home/hgkbzorb/public_html/beta/admin/admin.php on line 78
+[18-Apr-2016 17:55:56 Europe/Madrid] PHP Parse error:  syntax error, unexpected '>' in /home/hgkbzorb/public_html/beta/admin/admin.php on line 79

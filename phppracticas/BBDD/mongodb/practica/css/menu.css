@@ -1,0 +1,170 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: sans-serif;
+
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.divs > a{
+    color: black;
+}
+header{
+    width: 100%;
+    height: 10%;
+}
+#menu li{
+    display: inline-block;
+    height: 100%;
+    background-color: #333333;
+    width: 15%;
+    text-align: center;
+    margin-left: 6%;
+}
+#menu ul{
+    height: 100%;
+    margin-top: 0;
+
+}
+ul.menu li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+#buscar{
+    display: inline-block;
+    margin-top: 1%;
+}
+#cssmenu:nth-child(2){
+    display: inline-block;
+}
+#cssmenu{
+    display: inline-block;
+    padding: 0 0 0 0;
+    width: 40%;
+    margin-left: 8%;
+    margin-right: 7.5%;
+    height: 100%;
+}
+#cssmenu2{
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    margin-top: 0;
+    margin-left: 13%;
+}
+#cssmenu2 > div{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    float: left;
+}
+#logo{
+    width: 50%;
+    height: 100%;
+}
+#divlogo{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: static;
+    left: 0;   
+}
+#cuerpop{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 2%;
+}
+#cuerpo{
+    display: inline-block;
+    width: 85%;
+    height: 100%;
+}
+#menu{
+    background-color: black;
+    width: 100%;
+    height: 10%;
+    margin-top: 0;
+    vertical-align: top;
+}
+input[type="search"]{
+    width: 45px; /*ancho por defecto*/
+    background: #ededed url('search-icon.png') no-repeat 9px center; /*icono lupa*/
+    padding: 9px 10px 9px 32px;
+    border-radius: 15em;
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
+}
+input[type="search"]:focus{
+    width: 130px; /*tamaño del boton buscar al hacer click*/
+    padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+    color: #000;
+    background-color: #FFF;
+}
+.divs {
+    background-color: beige;
+    height: 15%;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    border: solid 3px black;
+    text-align: center;
+}
+.divs > form{
+    margin-top: 8%;
+}
+.altas > a{
+    display: inline-block;
+    width: 2%;
+    height: 2%;
+    text-decoration: none;
+    color: blue;
+}
+.altas{
+    display: inline-block;
+    vertical-align: top;
+    background-color: beige;
+    width: 40%;
+    height: 72%;
+    text-align: left;
+    margin: 20px;
+    margin-top: 0;
+    border: solid black 2px;
+    -webkit-box-shadow: 17px 22px 28px 1px rgba(0,0,0,0.57);
+    -moz-box-shadow: 17px 22px 28px 1px rgba(0,0,0,0.57);
+    box-shadow: 17px 22px 28px 1px rgba(0,0,0,0.57);
+}
+.altas > h1,h2{
+    text-align: center;
+}
+.altas2{
+    vertical-align: top;
+    background-color: beige;
+    width: 40%;
+    height: auto;
+    text-align: left;
+    margin: 20px;
+    margin-top: 0;
+    border: solid black 2px;
+    -webkit-box-shadow: 17px 22px 28px 1px rgba(0,0,0,0.57);
+    -moz-box-shadow: 17px 22px 28px 1px rgba(0,0,0,0.57);
+    box-shadow: 17px 22px 28px 1px rgba(0,0,0,0.57);
+    margin-left: 30%;
+}
+#centro{
+    text-align: center;
+}

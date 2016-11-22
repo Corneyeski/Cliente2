@@ -1,0 +1,114 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 10%;
+}
+#menu li{
+    display: inline-block;
+    height: 100%;
+    background-color: #333333;
+    width: 8%;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
+}
+#menu ul{
+    float: left;
+    margin-left: 5%;
+    height: 100%;
+    width: 72%;
+    margin-top: 0;
+}
+ul.menu li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+#buscar{
+    display: inline-block;
+    margin-top: 1%;
+}
+#cssmenu:nth-child(2){
+    display: inline-block;
+}
+#cssmenu{
+    display: inline-block;
+    padding: 0 0 0 0;
+    width: 40%;
+    margin-left: 8%;
+    margin-right: 7.5%;
+    height: 100%;
+}
+#cssmenu2{
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    margin-top: 0;
+    margin-left: 13%;
+}
+#cssmenu2 > div{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    float: left;
+}
+#logo{
+    width: 50%;
+    height: 100%;
+}
+#divlogo{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: static;
+    left: 0;   
+}
+#cuerpop{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 2%;
+}
+#cuerpo{
+    display: inline-block;
+    width: 85%;
+    height: 100%;
+}
+#menu{
+    background-color: black;
+    width: 100%;
+    height: 10%;
+    margin-top: 0;
+    vertical-align: top;
+}
+input[type="search"]{
+    width: 45px; /*ancho por defecto*/
+    background: #ededed url('search-icon.png') no-repeat 9px center; /*icono lupa*/
+    padding: 9px 10px 9px 32px;
+    border-radius: 15em;
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
+}
+input[type="search"]:focus{
+    width: 130px; /*tamaño del boton buscar al hacer click*/
+    padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+    color: #000;
+    background-color: #FFF;
+}
+#lupa{
+    width: 2%;
+    height: 25%;
+    z-index: 100;
+    position: relative;
+    top: 5px;
+    left: 38px;
+}

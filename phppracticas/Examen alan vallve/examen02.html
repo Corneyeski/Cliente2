@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="validarForm.php" method="get">
+            <label for="ps"> Contraseña: </label>
+            <input type="password" name="ps" id="ps"  required/>
+            <br>
+            <label for="num">numero del 14 al 90</label>
+            <input type="number" name="num" id="num" value="20" min="14" max="90"/>
+            <br>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" required/>
+            <br>
+            <input type="submit" value="Entrar"/>
+        </form>
+    </body>
+</html>

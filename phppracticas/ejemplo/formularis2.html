@@ -1,0 +1,61 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="formularis2.css">
+        <title>TODO supply a title</title>
+    <form action="registro2.php" method="post">
+        <div>
+            <div id="uno">
+                <div id="nombre">
+                    <label for="nom">Nombre:</label> <input type="text" name="fname" id="nom" pattern="[^a-z].{3,10}" required/>
+                </div>
+                <div id="fecha">
+                    <label for="nacim">Fecha de nacimiento:</label> <input type="date" name="nacimiento" id="nacim" required/>
+                </div>
+            </div>
+
+            <div id="dos">  
+                <div id="blog">
+                    <label for="blog">URL del blog</label> <input type="url" name="urlblog" id="blog" required/>
+                </div>
+                <div id="marca">
+                    <label for="mobil">Marca mobil</label>
+                    <input type="text" name="lista" list="marcasmobil" id="mobil">
+                    <datalist id="marcasmobil">
+                        <option value="LG"></option>
+                        <option value="Nokia"></option>
+                        <option value="Apple"></option>
+                        <option value="Samsung"></option>
+                        <option value="Motorola"></option>
+                        <option value="Huawei"></option>
+
+                    </datalist>
+                </div>
+
+                <div id="hermanos">
+
+                    <label for="hermano">Numero de hermano</label> <input type="number" name="numerohermano"  id="hermano" min="0" max="20" required/>
+                </div>
+
+                <div id="sexo">
+                    <label for="sex">Sexo:    </label></br>Hombre: <input type="radio" name="sexo" value="masculino" id="sex" required />
+                    Mujer: <input type="radio" name="sexo" value="femenino" id="sex" required />
+                </div>
+            </div>
+            <div id="3">
+                <label for="comida">Comida favorita :</label> </br>
+                <input type="checkbox" name="comida" value="chocolate"> Chocolate
+                <input type="checkbox" name="comida" value="pan" checked> pan
+                <input type="checkbox" name="comida" value="acelgas"> acelgas
+                <input type="checkbox" name="comida" value="patatas" checked> patatas
+                <input type="checkbox" name="comida" value="lentejas"> lentejas
+            </div>
+            </br>
+            <div id="cuatro">
+                <input type="submit" value="Registrate"/>
+
+                <input type="reset" value="Limpia el form">
+            </div>
+        </div>
+    </form>
+</html>

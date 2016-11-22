@@ -1,0 +1,78 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    overflow: hidden;
+}
+body>div{
+    width: 100%;
+    height: 100%;
+}
+.imagenes{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#slicks img{
+    height:100%;
+    display: inline-block;
+}
+#formulario{
+    width: 100%;
+    height: 90%;
+}
+#slicks{
+    width: 100%;
+    height: 10%;
+    overflow: hidden;
+}
+#formulario>div{
+    display: inline-block;
+}
+#slicks{
+    background-color: gray;
+}
+#lateral{
+    width: 14.5%;
+    height: 100%;
+    background-color: red;
+}
+form{
+    width: 85.5%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+form > div{
+    display: inline-block;
+    text-align: left;
+    margin: 20px;
+    margin-top: 10%;
+}
+#oficina{
+    display: none;
+}
+@media screen and (max-width: 1000px) and (min-width:600px){
+    #oficina{
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 900px) and (min-width:800px){
+
+    label{
+        color: blue;
+        font-size: 13px;
+    }
+    #lateral{
+        width: 60px;  
+        position: fixed;
+        margin-left: 9%;
+    }
+
+}
+@media screen and (max-width: 599px){
+
+
+}

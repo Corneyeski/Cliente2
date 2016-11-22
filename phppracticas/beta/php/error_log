@@ -1,0 +1,53 @@
+[29-Feb-2016 17:24:47 Europe/Madrid] PHP Warning:  mysql_connect(): Access denied for user 'hgkbzorb_alan'@'hl308.hosteurope.es' (using password: YES) in /home/hgkbzorb/public_html/beta/php/formf.php on line 6
+[29-Feb-2016 17:28:35 Europe/Madrid] PHP Warning:  mysql_connect(): Access denied for user 'hgkbzorb_alan'@'hl308.hosteurope.es' (using password: YES) in /home/hgkbzorb/public_html/beta/php/formf.php on line 6
+[29-Feb-2016 17:29:10 Europe/Madrid] PHP Warning:  mysql_connect(): Access denied for user 'hgkbzorb_alan'@'hl308.hosteurope.es' (using password: YES) in /home/hgkbzorb/public_html/beta/php/formf.php on line 6
+[29-Feb-2016 17:30:49 Europe/Madrid] PHP Warning:  mysql_connect(): Access denied for user 'hgkbzorb_alan'@'hl308.hosteurope.es' (using password: YES) in /home/hgkbzorb/public_html/beta/php/formf.php on line 6
+[01-Mar-2016 19:37:15 Europe/Madrid] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hgkbzorb/public_html/beta/php/validar.php on line 24
+[01-Mar-2016 19:37:15 Europe/Madrid] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hgkbzorb/public_html/beta/php/validar.php:24) in /home/hgkbzorb/public_html/beta/php/validar.php on line 40
+[01-Mar-2016 20:59:03 Europe/Madrid] PHP Parse error:  syntax error, unexpected 'No' (T_STRING) in /home/hgkbzorb/public_html/beta/php/formf.php on line 9
+[01-Mar-2016 21:01:07 Europe/Madrid] PHP Parse error:  syntax error, unexpected 'No' (T_STRING) in /home/hgkbzorb/public_html/beta/php/formf.php on line 9
+[01-Mar-2016 21:02:00 Europe/Madrid] PHP Parse error:  syntax error, unexpected 'No' (T_STRING) in /home/hgkbzorb/public_html/beta/php/formf.php on line 9
+[01-Mar-2016 21:02:07 Europe/Madrid] PHP Parse error:  syntax error, unexpected 'No' (T_STRING) in /home/hgkbzorb/public_html/beta/php/formf.php on line 9
+[01-Mar-2016 21:04:10 Europe/Madrid] PHP Parse error:  syntax error, unexpected 'no' (T_STRING) in /home/hgkbzorb/public_html/beta/php/formf.php on line 9
+[02-Mar-2016 17:55:20 Europe/Madrid] PHP Warning:  mysql_connect(): Access denied for user 'hgkbzorb_alan'@'hl308.hosteurope.es' (using password: YES) in /home/hgkbzorb/public_html/beta/php/forml.php on line 6
+[08-Mar-2016 19:31:46 Europe/Madrid] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/hgkbzorb/public_html/beta/php/validar.php on line 10
+[08-Mar-2016 19:31:46 Europe/Madrid] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hgkbzorb/public_html/beta/php/validar.php:10) in /home/hgkbzorb/public_html/beta/php/validar.php on line 21
+[08-Mar-2016 19:35:22 Europe/Madrid] PHP Parse error:  syntax error, unexpected 'password' (T_STRING), expecting ']' in /home/hgkbzorb/public_html/beta/php/validar.php on line 3
+[08-Mar-2016 19:39:30 Europe/Madrid] PHP Warning:  mysql_select_db() expects parameter 1 to be string, resource given in /home/hgkbzorb/public_html/beta/php/validar.php on line 7
+[08-Mar-2016 19:40:39 Europe/Madrid] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/hgkbzorb/public_html/beta/php/validar.php on line 9
+[08-Mar-2016 19:40:39 Europe/Madrid] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hgkbzorb/public_html/beta/php/validar.php:9) in /home/hgkbzorb/public_html/beta/php/validar.php on line 13
+[08-Mar-2016 20:18:53 Europe/Madrid] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hgkbzorb/public_html/beta/php/validar.php:12) in /home/hgkbzorb/public_html/beta/php/validar.php on line 13
+[08-Mar-2016 20:53:53 Europe/Madrid] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hgkbzorb/public_html/beta/php/validar.php:15) in /home/hgkbzorb/public_html/beta/php/validar.php on line 16
+[08-Mar-2016 20:55:00 Europe/Madrid] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hgkbzorb/public_html/beta/php/validar.php:15) in /home/hgkbzorb/public_html/beta/php/validar.php on line 16
+[08-Mar-2016 20:55:15 Europe/Madrid] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hgkbzorb/public_html/beta/php/validar.php:15) in /home/hgkbzorb/public_html/beta/php/validar.php on line 16
+[08-Mar-2016 20:58:52 Europe/Madrid] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hgkbzorb/public_html/beta/php/validar.php:15) in /home/hgkbzorb/public_html/beta/php/validar.php on line 16
+[08-Mar-2016 20:58:56 Europe/Madrid] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hgkbzorb/public_html/beta/php/validar.php:15) in /home/hgkbzorb/public_html/beta/php/validar.php on line 16
+[08-Mar-2016 20:59:00 Europe/Madrid] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hgkbzorb/public_html/beta/php/validar.php:15) in /home/hgkbzorb/public_html/beta/php/validar.php on line 16
+[08-Mar-2016 20:59:31 Europe/Madrid] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hgkbzorb/public_html/beta/php/validar.php:15) in /home/hgkbzorb/public_html/beta/php/validar.php on line 16
+[08-Mar-2016 20:59:59 Europe/Madrid] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hgkbzorb/public_html/beta/php/validar.php:15) in /home/hgkbzorb/public_html/beta/php/validar.php on line 16
+[08-Mar-2016 21:03:31 Europe/Madrid] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hgkbzorb/public_html/beta/php/validar.php:14) in /home/hgkbzorb/public_html/beta/php/validar.php on line 15
+[20-Apr-2016 17:29:28 Europe/Madrid] PHP Parse error:  syntax error, unexpected '=' in /home/hgkbzorb/public_html/beta/php/formm.php on line 8
+[20-Apr-2016 17:30:02 Europe/Madrid] PHP Warning:  copy(): Filename cannot be empty in /home/hgkbzorb/public_html/beta/php/formm.php on line 11
+[20-Apr-2016 17:31:52 Europe/Madrid] PHP Warning:  copy(): Filename cannot be empty in /home/hgkbzorb/public_html/beta/php/formm.php on line 11
+[20-Apr-2016 17:33:19 Europe/Madrid] PHP Warning:  copy(foto/Dilbert.JPG): failed to open stream: No such file or directory in /home/hgkbzorb/public_html/beta/php/formm.php on line 11
+[20-Apr-2016 17:36:59 Europe/Madrid] PHP Warning:  copy(foto/Dilbert.JPG): failed to open stream: No such file or directory in /home/hgkbzorb/public_html/beta/php/formm.php on line 11
+[20-Apr-2016 17:37:13 Europe/Madrid] PHP Warning:  copy(foto/Dilbert.JPG): failed to open stream: No such file or directory in /home/hgkbzorb/public_html/beta/php/formm.php on line 11
+[20-Apr-2016 18:16:12 Europe/Madrid] PHP Warning:  copy(/public_html/beta/fotoDilbert.JPG): failed to open stream: No such file or directory in /home/hgkbzorb/public_html/beta/php/formm.php on line 11
+[21-Apr-2016 18:08:59 Europe/Madrid] PHP Warning:  copy(/foto/lupa.png): failed to open stream: No such file or directory in /home/hgkbzorb/public_html/beta/php/formm.php on line 11
+[21-Apr-2016 18:10:00 Europe/Madrid] PHP Warning:  copy(foto/lupa.png): failed to open stream: No such file or directory in /home/hgkbzorb/public_html/beta/php/formm.php on line 11
+[21-Apr-2016 18:14:13 Europe/Madrid] PHP Warning:  copy(foto/Dilbert.JPG): failed to open stream: No such file or directory in /home/hgkbzorb/public_html/beta/php/formm.php on line 11
+[21-Apr-2016 18:19:47 Europe/Madrid] PHP Warning:  copy(foto/Esfera_del_dragon_4_estrellas.png): failed to open stream: No such file or directory in /home/hgkbzorb/public_html/beta/php/formm.php on line 11
+[25-Apr-2016 16:52:22 Europe/Madrid] PHP Warning:  copy(foto/lupa.png): failed to open stream: No such file or directory in /home/hgkbzorb/public_html/beta/php/formm.php on line 11
+[25-Apr-2016 16:54:21 Europe/Madrid] PHP Warning:  copy(foto/Esfera_del_dragon_4_estrellas.png): failed to open stream: No such file or directory in /home/hgkbzorb/public_html/beta/php/formm.php on line 11
+[09-May-2016 17:19:39 Europe/Madrid] PHP Warning:  copy(): Filename cannot be empty in /home/hgkbzorb/public_html/beta/php/formm.php on line 12
+[09-May-2016 17:22:30 Europe/Madrid] PHP Warning:  copy(): Filename cannot be empty in /home/hgkbzorb/public_html/beta/php/formm.php on line 12
+[09-May-2016 17:25:09 Europe/Madrid] PHP Warning:  copy(): Filename cannot be empty in /home/hgkbzorb/public_html/beta/php/formm.php on line 12
+[09-May-2016 17:27:20 Europe/Madrid] PHP Warning:  copy(): Filename cannot be empty in /home/hgkbzorb/public_html/beta/php/formm.php on line 12
+[09-May-2016 17:28:33 Europe/Madrid] PHP Warning:  copy(): Filename cannot be empty in /home/hgkbzorb/public_html/beta/php/formm.php on line 12
+[09-May-2016 17:44:41 Europe/Madrid] PHP Warning:  copy(/../foto/Esfera_del_dragon_4_estrellas.png): failed to open stream: No such file or directory in /home/hgkbzorb/public_html/beta/php/formm.php on line 12
+[09-May-2016 17:52:13 Europe/Madrid] PHP Warning:  copy(foto/Esfera_del_dragon_4_estrellas.png): failed to open stream: No such file or directory in /home/hgkbzorb/public_html/beta/php/formm.php on line 14
+[09-May-2016 17:53:21 Europe/Madrid] PHP Warning:  copy(foto/Esfera_del_dragon_4_estrellas.png): failed to open stream: No such file or directory in /home/hgkbzorb/public_html/beta/php/formm.php on line 20
+[09-May-2016 20:47:21 Europe/Madrid] PHP Warning:  copy(): Filename cannot be empty in /home/hgkbzorb/public_html/beta/php/formm.php on line 12
+[09-May-2016 20:47:21 Europe/Madrid] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hgkbzorb/public_html/beta/php/formm.php:12) in /home/hgkbzorb/public_html/beta/php/formm.php on line 20
+[09-May-2016 20:48:21 Europe/Madrid] PHP Warning:  copy(): Filename cannot be empty in /home/hgkbzorb/public_html/beta/php/formm.php on line 12
+[09-May-2016 20:49:20 Europe/Madrid] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hgkbzorb/public_html/beta/php/formm.php:19) in /home/hgkbzorb/public_html/beta/php/formm.php on line 20

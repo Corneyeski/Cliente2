@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang=''>
+    <head>
+        <meta charset='utf-8'>
+        <link rel="stylesheet" href="css/menu.css" type="text/css">
+        <title>All4Music - Inicio</title>
+    </head>
+    <body>
+        <header>
+            <div id='cssmenu'>
+                <a href="inicio.php"><div id="divlogo"><img src="img/Alan.png" alt="" id="logo"/></div></a>
+            </div>
+            <div id="cssmenu2">
+                <div>
+                </div>
+            </div>
+        </header>
+        <div id="menu">
+            <ul class="menu">
+                <li><a href="formalta.html">Dar de alta</a></li>
+                <li><a href="buscar.php">Listar elementos</a></li>
+                <li><a href="delete.php">Eliminar elementos</a></li>
+                <li><a href="cambiar.php">editar datos</a></li>
+            </ul>
+        </div>
+        <div id="cuerpop">
+            <div class="altas">
+                <h1>Objeto de Smite</h1>
+                <form action="alta.php" method=post>
+                    Nombre: <input type=text name=nombre required>
+                    <br>
+                    Para:
+                    <input type="radio" name=tipo value="Fisico">Fisico  <input type="radio" name=tipo value="Magico" required>Magico
+                    <br>
+                    <h2>Introduce solo los datos correspondientes al objeto</h2>
+                    Mana: <input type=text name=mana>
+                    <br>
+                    Velocidad de ataque: <input type=number name=vela max="99" value="">
+                    <br>
+                    Velocidad de movimiento: <input type="number" name=velm max="99" value="">
+                    <br>
+                    Poder: <input type=number name=poder value="">
+                    <br>
+                    Cooldown: <input type="number" name=cooldown max="99" value="">
+                    <br>
+                    Critico: <input type="number" name=critico max="99" value="">
+                    <br>
+                    Penetracion: <input type="number" name=penetracion max="99" value="">
+                    <br>
+                    Robo de vida: <input type="number" name=robo max="99" value="">
+                    <br>
+                    Salud: <input type="number" name=salud value="">
+                    <br>
+                    Fisico: <input type="number" name=fisico value="">
+                    <br>
+                    Magico: <input type="number" name=magico value="">
+                    <br>
+                    <input type=submit>
+                    <input type=reset>
+                </form>
+            </div>
+            <div class="altas">
+                <h1>Dios de Smite</h1>
+                <form action="dioses/alta.php" method=post>
+                    Nombre: <input type=text name=nombre required>
+                    <br>
+                    Es:
+                    <input type="radio" name=tipo value="asesino" required>Asesino
+                    <input type="radio" name=tipo value="mago" required>Mago
+                    <input type="radio" name=tipo value="tanque" required>Tanque
+                    <input type="radio" name=tipo value="adc" required>ADC
+                    <input type="radio" name=tipo value="guerrero" required>Guerrero
+                    <br>
+                    <h2>Introduce las hablidades y pasiva</h2>
+                    Habilidad uno: <input type=text name=h1 required>
+                    <br>
+                    Habilidad dos: <input type=text name=h2 value="" required>
+                    <br>
+                    Habilidad tres: <input type="text" name=h3 value="" required>
+                    <br>
+                    Habilidad cuatro: <input type=text name=h4 value="" required>
+                    <br>
+                    Pasiva: <input type="text" name=pasiva  value="" required>
+                    <br>
+                    <input type=submit>
+                    <input type=reset>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

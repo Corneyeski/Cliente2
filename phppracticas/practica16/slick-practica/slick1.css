@@ -1,0 +1,38 @@
+body{
+	height:95%;
+	width:95%;
+	background-color: grey;
+	text-align: center;
+}
+
+#rotacion{
+	width:600px;
+	height: 200px;
+	top:20px;
+	left:20%;
+	display: inline-block;
+	position:absolute;
+}
+.your-class{
+	width:100%;
+	height:100%;
+        display: inline-block;
+}
+.your-class>div{
+    height: 100%;
+}
+#slick-track{
+    height: 100%;
+}
+#slick-slide{
+    height: 100%;
+    position:relative;
+    text-align: center;
+}
+#rotacion img{
+	height:100%;
+        display: inline-block;
+}
+.imagenes{
+    display: inline-block;
+}

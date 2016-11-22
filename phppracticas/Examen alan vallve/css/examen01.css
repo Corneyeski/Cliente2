@@ -1,0 +1,58 @@
+//1.	Selecciona todos los links para que tengan un color de letra blanca y sin subrayado
+
+a{
+    text-decoration: none;
+    color: white;
+}
+//2.	Selecciona todos los links dentro de un nav cuando el ratón se sitúe encima del nav.Indica su texto se muestre en negrita
+nav:hover a{
+    font-weight: bold;
+}
+//3.	Selecciona los DIV hijos del elemento con id "main" Indica que tengan una anchura de 300px y color de fondo "verde”.
+
+#main>div{
+    background-color: green;
+    width: 300px;
+}
+//4.	Selecciona los DIV hijos de DIV hijos del elemento con id "main" Indica que tengan un tamaño de letra de 10 pixeles y color de letra azul.
+
+#main>div>div{
+    color: blue;
+    font-size: 10px;
+}
+//5.	Selecciona los DIV que sean el primer hijo del elemento con id "main". Indica que el texto sea de color naranja. 
+
+#main>div:first-child{
+    color: orange;
+}
+//6.	Selecciona los LI que sean los hijos pares y que estén dentro del elemento con id "main". Indica que el texto sea de color rojo.
+
+#main li:nth-child(2n){
+    color: red;
+}
+//7.	Selecciona los LI que tengan el ratón encima y sean los hijos impares y estén dentro del elemento con id "main" Indica que tengan un color de fondo negro y que el texto sea de color blanco
+#main li:nth-child(2n-1):hover{
+    color: white;
+    background-color: black;
+}
+/*8.	Selecciona todos los elementos dentro del primer DIV hijo del element con id "main"
+Indica que tengan un sombreado de color naranja. (Posiciona el sombreado como prefieras de manera que se muestre)
+*/
+#main>div:first-child>*{
+   -webkit-box-shadow: 10px 10px 19px 0px orange;
+    -moz-box-shadow: 10px 10px 19px 0px orange;
+    box-shadow: 10px 10px 19px 0px orange;
+}
+//9.	Selecciona los elementos FOOTER. Indica que tengan un color de texto "blanco" y que el texto quede alineado al centro
+
+footer{
+    color: white;
+    text-align: center;
+}
+//10.	Selecciona el primer LI hijo de un UL hijo de un NAV. Indica que tenga un color de fondo "negro", un color de texto "blanco" y que no tenga sombra.
+
+nav>ul>li:first-child{
+    background-color: black;
+    color: white;
+    box-shadow: 0;
+}
