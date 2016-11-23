@@ -9,10 +9,11 @@
 div{
     padding: 0;
 }
-body{
-   /*background-image: url(Fondos-de-escritorio-estrellas-In-espacio-01-1080x1920.jpg); */
-}
+/*body{
+   background-image: url(Fondos-de-escritorio-estrellas-In-espacio-01-1080x1920.jpg); 
+} */
 #espai{
+    background-image: url(Fondos-de-escritorio-estrellas-In-espacio-01-1080x1920.jpg);
     display: none;
 }
 #puntos{
