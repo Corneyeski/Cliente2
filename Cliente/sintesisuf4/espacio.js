@@ -1,9 +1,11 @@
 $(document).ready(start);
 var source = 0;
 var lista;
+var nave = $("<img src='2iozev.png' id='subject'/>");
 function start() {
     $("#boton").click(nombre);
     $("#start").click(start2);
+    $("#espai").append(nave);
 }
 function nombre() {
 
@@ -28,38 +30,57 @@ function puntos() {
         dataType: "json",
         data: {"lista": "lista"},
         success: function (respuesta) {
-           // lista = JSON.parse(respuesta);
+            // lista = JSON.parse(respuesta);
             //console.log( array);
-        //    usuarios();
-         console.log(respuesta.jug);
-         
-         var elem = "<ul>";
-            for(var nombre in respuesta.jug){
-                
+            //    usuarios();
+            console.log(respuesta.jug);
+
+            var elem = "<ul>";
+            for (var nombre in respuesta.jug) {
+
                 elem += "<li>Nombre: " + respuesta.jug[nombre].nombre + " - Puntos: " + respuesta.jug[nombre].puntos + "</li>";
             }
             elem += "</ul>";
             console.log(elem);
-             $("#tabla").prepend(elem);
-             $("#start").fadeIn();
-             
-            //$("#tabla").append("<button id='start'>Start</button>");
+            $("#tabla").prepend(elem);
+            $("#start").fadeIn();
+            $("#fondo").fadeIn();
         }
     });
 }
-/*function usuarios(){
-    
-    for (var i = 0; i < lista.length; i++) {
-        console.log(lista[i].nombre);
-        var elem = "<ul><li>" + lista[i].nombre + "</li><li>" + lista[i].puntos + "</li></ul>";
-        elem.appendTo('#tabla');
-    }
-    //$("#tabla").html("<button id='start'>Start</button>");
-}*/
-function start2(){
-    
+function start2() {
+
     $("#puntos").fadeOut();
-    $("#espai").fadeIn();
-    
-    
+    $("#espai").fadeIn(5000);
+
+    $(document).keydown(function (a) {
+        switch (a.wich) {
+
+            //s
+            case 87:
+                nave.stop().animate({
+                    top: '-=50'
+                });
+                alert.log("w");
+                break;
+                //w
+            case 83:
+                nave.stop().animate({
+                    top: '+=50'
+                });
+                break;
+                //a
+            case 65:
+                nave.stop().animate({
+                    left: '-=50'
+                });
+                break;
+                //d
+            case 68:
+                nave.stop().animate({
+                    left: '+=50'
+                });
+                break;
+        }
+    });
 }
