@@ -18,6 +18,15 @@ if (isset($_POST['lista']) && isset($_SESSION["array"])) {
      echo $respuesta;
     exit();
 }
+if(isset($_POST['max'])){
+    
+    $zero = 0;
+    $uno = $_POST['max'];
+    
+    echo mt_rand ($zero*10, $uno*10) / 10;
+    
+    exit();
+}
 if (!isset($_SESSION["array"])) {
     $arr[0][0] = $_POST['nombre'];
       $arr[0][1] = 0;
