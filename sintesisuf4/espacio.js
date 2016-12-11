@@ -52,6 +52,7 @@ function puntos() {
 function start2() {
 
     $("#puntos").fadeOut();
+    $("#gameOver").fadeOut();
     $("#fondo").fadeIn(5000);
     $("#hud").fadeIn(5000);
     $("#espai").fadeIn(5000);
@@ -146,5 +147,6 @@ function meteoro(){
     });
 }
 function final(){
-    
+    $("#salud").css({"width" : "250"});
+    $("#puntos").fadeIn();
 }
