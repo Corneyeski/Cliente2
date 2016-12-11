@@ -46,6 +46,7 @@ if (!isset($_SESSION["array"])) {
     } else {
         $resultado = $_POST['posicion'];
         $_SESSION["array"][$resultado][1] = $_POST['puntuacion'];
+        exit();
     }
 }
 ?>

@@ -112,7 +112,7 @@ function meteoro(){
     meteorito.animate({
         left : '0'
         },{
-        duration: 4000,
+        duration: 3000,
         step: function (now, fx) {
                             //puntuacion
                             $("#points").html(points);
@@ -147,6 +147,18 @@ function meteoro(){
     });
 }
 function final(){
-    $("#salud").css({"width" : "250"});
+    $.ajax({
+        type: "POST",
+        url: "espacio.php",
+        dataType: "json",
+        data: {"posicion": source, "puntuacion": points},
+        success: function (respuesta) {
+            $("#tabla").remove("ul");
+            puntos();
+        }
+    });
+    $("#salud").animate({
+        "width": "+=250"
+    });
     $("#puntos").fadeIn();
 }
