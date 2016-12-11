@@ -22,8 +22,9 @@ if(isset($_POST['max'])){
     
     $zero = 0;
     $uno = $_POST['max'];
+    $respuesta = '{"random":"'. mt_rand ($zero*10, $uno*10) / 10 .'"}';
     
-    echo mt_rand ($zero*10, $uno*10) / 10;
+    echo $respuesta;
     
     exit();
 }
